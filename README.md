@@ -1,2 +1,3 @@
-# interactionlab-touch
-Processing/Android programs that showcase multitouch interaction techniques
+# Interaction Lab / Touch
+
+Processing/Android programs that showcase multitouch interaction techniques.
