@@ -2,7 +2,8 @@
 // distance to the two closest targets.
 
 class BubbleCursor extends Circle {
-  
+
+  final boolean SHOW_PROJECTION = false; 
   float prevX, prevY;
 
   BubbleCursor(float diameter) {
@@ -35,15 +36,17 @@ class BubbleCursor extends Circle {
     strokeWeight(2);
     line(x - 5, y, x + 5, y);
     line(x, y - 5, x, y + 5);
-    
+
     // draw ballistic projection
-    float scale = 5;
-    float projX = x + scale*(x - prevX);
-    float projY = y + scale*(y - prevY);
-    strokeWeight(2);
-    stroke(0,0,255);
-    line(x, y, projX, projY);
-    
+    if (SHOW_PROJECTION) {
+      float scale = 5;
+      float projX = x + scale*(x - prevX);
+      float projY = y + scale*(y - prevY);
+      strokeWeight(2);
+      stroke(0, 0, 255);
+      line(x, y, projX, projY);
+    }
+
     float smooth = .8;
     prevX = smooth * prevX + (1-smooth) * x;
     prevY = smooth * prevY + (1-smooth) * y;

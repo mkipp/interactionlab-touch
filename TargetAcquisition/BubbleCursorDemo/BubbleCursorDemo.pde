@@ -11,8 +11,8 @@ float GAP = 10; // distance to second closest target
 void setup() {
   size(800, 620);
   noCursor();
-  //environ.init(20, 30, 10, 60);
-  environ.initGrid(50, .3);
+  environ.init(20, 30, 10, 60);
+  //environ.initGrid(50, .3);
 }
 
 void draw() {
