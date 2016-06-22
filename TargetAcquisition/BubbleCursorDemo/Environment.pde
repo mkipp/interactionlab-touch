@@ -1,13 +1,15 @@
 // Represents targets
 
 class Environment {
-
+  
+  GUI gui = new GUI();
   ArrayList<Target> targets  = new ArrayList<Target>();
   ArrayList<Target> collisionHistory = new ArrayList<Target>();
   int collisions = 0;
 
   void init(int numTargets, float minDist, 
     float minDia, float maxDia) {
+    gui.init();
     for (int i = 0; i < numTargets; i++) {
       Target tar = new Target(minDia, maxDia);
       while (! hasMinDist(tar, minDist)) {
@@ -73,7 +75,8 @@ class Environment {
     return result;
   }
 
-  void update(BubbleCursor cursor) {
+  void update(BubbleCursor cursor, DataPrinter dataPrinter) {
+    gui.update();
     for (Target target : targets) {
       if (cursor.collides(target)) {
         if (!collisionHistory.contains(target)) {
@@ -82,6 +85,7 @@ class Environment {
             target.selected = false;
             collisionHistory.clear();
             println("HIT");
+            gui.stopTime(dataPrinter);
           } else {
             collisions++;
             println("collisions = " + collisions);
@@ -102,6 +106,7 @@ class Environment {
 
   void selectOne() {
     reset();
+    gui.reset();
     int sel = (int)random(targets.size());
     targets.get(sel).selected = true;
     collisions = 0;
