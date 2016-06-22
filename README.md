@@ -1,6 +1,26 @@
 # Interaction Lab / Touch
 
 Processing/Android programs that showcase multitouch interaction techniques.
+These programs are being developed for the Interaction Lab at Augsburg University
+of Applied Sciences.
+
+## Rotate, Scale, Translate
+
+Hancock, M.S., Vernier, F.D., Wigdor, D., Carpendale, S., Shen, C. (2006). Rotation and translation mechanisms for tabletop interaction. In: Proceedings of the First IEEE International Workshop on Horizontal Interactive Human-Computer Systems.
+
+Russell Kruger, Sheelagh Carpendale, Stacey D. Scott, and Anthony Tang. 2005. Fluid integration of rotation and translation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '05). ACM, New York, NY, USA, 601-610. 
+
+Jun Liu, David Pinelle, Samer Sallam, Sriram Subramanian, and Carl Gutwin (2006) TNT: improved rotation and translation on digital tables. In: Proceedings of Graphics Interface (GI '06). Canadian Information Processing Society, Toronto, Canada, pp. 25-32. 
+
+## Menus
+
+Great video about marking menus: https://www.youtube.com/watch?v=dtH9GdFSQaw
+
+Kenrick Kin, Björn Hartmann, and Maneesh Agrawala. 2011. Two-handed marking menus for multitouch devices. ACM Trans. Comput.-Hum. Interact. 18, 3, Article 16 (August 2011), 23 pages.
+
+Nikola Banovic, Frank Chun Yat Li, David Dearman, Koji Yatani, and Khai N. Truong. 2011. Design of unimanual multi-finger pie menu interaction. In Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces (ITS '11). ACM, New York, NY, USA, 120-129.
+
+Yuexing Luo and Daniel Vogel. 2015. Pin-and-Cross: A Unimanual Multitouch Technique Combining Static Touches with Crossing Selection. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology (UIST '15). ACM, New York, NY, USA, 323-332.
 
 ## Target Acquisition
 
