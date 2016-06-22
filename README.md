@@ -4,6 +4,10 @@ Processing/Android programs that showcase multitouch interaction techniques.
 These programs are being developed for the Interaction Lab at Augsburg University
 of Applied Sciences.
 
+Also see the lecture notes for Interaction Engineering: http://michaelkipp.de/interaction
+
+You can find basic code for multitouch on Processing/Android under https://github.com/mkipp/processing-mt-android
+
 ## Rotate, Scale, Translate
 
 Hancock, M.S., Vernier, F.D., Wigdor, D., Carpendale, S., Shen, C. (2006). Rotation and translation mechanisms for tabletop interaction. In: Proceedings of the First IEEE International Workshop on Horizontal Interactive Human-Computer Systems.
